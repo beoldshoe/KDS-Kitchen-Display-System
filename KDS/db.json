@@ -79,6 +79,46 @@
       "options": null,
       "createdAt": "2024-07-03T10:35:00Z",
       "updatedAt": "2024-07-03T10:35:00Z"
+    },
+    {
+      "id": 9,
+      "name": "불고기버거",
+      "category": "버거",
+      "price": 4300,
+      "isAvailable": true,
+      "options": "단품, 세트",
+      "createdAt": "2024-07-03T10:40:00Z",
+      "updatedAt": "2024-07-03T10:40:00Z"
+    },
+    {
+      "id": 10,
+      "name": "어니언링",
+      "category": "사이드",
+      "price": 2200,
+      "isAvailable": true,
+      "options": null,
+      "createdAt": "2024-07-03T10:45:00Z",
+      "updatedAt": "2024-07-03T10:45:00Z"
+    },
+    {
+      "id": 11,
+      "name": "사이다",
+      "category": "음료",
+      "price": 1500,
+      "isAvailable": true,
+      "options": null,
+      "createdAt": "2024-07-03T10:50:00Z",
+      "updatedAt": "2024-07-03T10:50:00Z"
+    },
+    {
+      "id": 12,
+      "name": "간장마늘 싸이순살",
+      "category": "치킨",
+      "price": 10900,
+      "isAvailable": true,
+      "options": "하프, 한마리",
+      "createdAt": "2024-07-03T10:55:00Z",
+      "updatedAt": "2024-07-03T10:55:00Z"
     }
   ],
   "orders": [
@@ -129,6 +169,62 @@
       "customerRequest": "봉투에 넣어주세요",
       "orderTime": "2024-07-03T14:25:00Z",
       "completionTime": "2024-07-03T14:32:00Z"
+    },
+    {
+      "id": "D107",
+      "orderType": "배달",
+      "orderStatus": "사이드 제조 중",
+      "customerRequest": "콜라 얼음 많이",
+      "orderTime": "2024-07-03T14:45:00Z",
+      "completionTime": null
+    },
+    {
+      "id": "K108",
+      "orderType": "내점",
+      "orderStatus": "버거 제조 중",
+      "customerRequest": "양파 많이 넣어주세요",
+      "orderTime": "2024-07-03T14:48:00Z",
+      "completionTime": null
+    },
+    {
+      "id": "T109",
+      "orderType": "포장",
+      "orderStatus": "버거 제조 중",
+      "customerRequest": null,
+      "orderTime": "2024-07-03T14:50:00Z",
+      "completionTime": null
+    },
+    {
+      "id": "D110",
+      "orderType": "배달",
+      "orderStatus": "완료",
+      "customerRequest": "소스 추가해주세요",
+      "orderTime": "2024-07-03T14:30:00Z",
+      "completionTime": "2024-07-03T14:38:00Z"
+    },
+    {
+      "id": "K111",
+      "orderType": "내점",
+      "orderStatus": "버거 제조 중",
+      "customerRequest": "치킨 바삭하게",
+      "orderTime": "2024-07-03T14:55:00Z",
+      "completionTime": null
+    },
+    {
+      "id": "T112",
+      "orderType": "포장",
+      "orderStatus": "사이드 제조 중",
+      "customerRequest": "따뜻한 음료로 변경 가능?",
+      "orderTime": "2024-07-03T15:00:00Z",
+      "completionTime": null
+    },
+    {
+      "id": "D113",
+      "orderType": "배달",
+      "orderStatus": "버거 제조 중",
+      "customerRequest": "계란 추가해주세요",
+      "orderTime": "2024-07-03T15:05:00Z",
+      "completionTime": null
     }
   ],
   "orderItems": [
@@ -139,56 +235,6 @@
       "quantity": 1,
       "individualRequest": "양상추 많이"
     },
-    {
-      "id": 1001,
-      "orderId": "K101",
-      "menuId": 1,
-      "quantity": 1,
-      "individualRequest": "양상추 많이"
-    },
-    {
-      "id": 1001,
-      "orderId": "K101",
-      "menuId": 1,
-      "quantity": 1,
-      "individualRequest": "양상추 많이"
-    },
-    {
-      "id": 1001,
-      "orderId": "K101",
-      "menuId": 1,
-      "quantity": 1,
-      "individualRequest": "양상추 많이"
-    },
-    {
-      "id": 1001,
-      "orderId": "K101",
-      "menuId": 1,
-      "quantity": 1,
-      "individualRequest": "양상추 많이"
-    },
-    {
-      "id": 1001,
-      "orderId": "K101",
-      "menuId": 1,
-      "quantity": 1,
-      "individualRequest": "양상추 많이"
-    },
-    {
-      "id": 1001,
-      "orderId": "K101",
-      "menuId": 1,
-      "quantity": 1,
-      "individualRequest": "양상추 많이"
-    },
-    {
-      "id": 1001,
-      "orderId": "K101",
-      "menuId": 1,
-      "quantity": 1,
-      "individualRequest": "양상추 많이"
-    },
-
     {
       "id": 1002,
       "orderId": "K101",
@@ -286,6 +332,118 @@
       "menuId": 3,
       "quantity": 1,
       "individualRequest": "소금 많이"
+    },
+    {
+      "id": 1016,
+      "orderId": "D107",
+      "menuId": 9,
+      "quantity": 1,
+      "individualRequest": null
+    },
+    {
+      "id": 1017,
+      "orderId": "D107",
+      "menuId": 10,
+      "quantity": 1,
+      "individualRequest": null
+    },
+    {
+      "id": 1018,
+      "orderId": "D107",
+      "menuId": 4,
+      "quantity": 1,
+      "individualRequest": "얼음 많이"
+    },
+    {
+      "id": 1019,
+      "orderId": "K108",
+      "menuId": 1,
+      "quantity": 1,
+      "individualRequest": "양파 많이"
+    },
+    {
+      "id": 1020,
+      "orderId": "K108",
+      "menuId": 3,
+      "quantity": 1,
+      "individualRequest": null
+    },
+    {
+      "id": 1021,
+      "orderId": "T109",
+      "menuId": 6,
+      "quantity": 1,
+      "individualRequest": "단품"
+    },
+    {
+      "id": 1022,
+      "orderId": "T109",
+      "menuId": 7,
+      "quantity": 1,
+      "individualRequest": null
+    },
+    {
+      "id": 1023,
+      "orderId": "D110",
+      "menuId": 2,
+      "quantity": 1,
+      "individualRequest": null
+    },
+    {
+      "id": 1024,
+      "orderId": "D110",
+      "menuId": 11,
+      "quantity": 1,
+      "individualRequest": null
+    },
+    {
+      "id": 1025,
+      "orderId": "K111",
+      "menuId": 12,
+      "quantity": 1,
+      "individualRequest": "바삭하게"
+    },
+    {
+      "id": 1026,
+      "orderId": "K111",
+      "menuId": 3,
+      "quantity": 1,
+      "individualRequest": null
+    },
+    {
+      "id": 1027,
+      "orderId": "T112",
+      "menuId": 9,
+      "quantity": 1,
+      "individualRequest": "세트"
+    },
+    {
+      "id": 1028,
+      "orderId": "T112",
+      "menuId": 10,
+      "quantity": 1,
+      "individualRequest": null
+    },
+    {
+      "id": 1029,
+      "orderId": "T112",
+      "menuId": 4,
+      "quantity": 1,
+      "individualRequest": "핫초코로 변경"
+    },
+    {
+      "id": 1030,
+      "orderId": "D113",
+      "menuId": 1,
+      "quantity": 1,
+      "individualRequest": "계란 추가"
+    },
+    {
+      "id": 1031,
+      "orderId": "D113",
+      "menuId": 3,
+      "quantity": 1,
+      "individualRequest": null
     }
   ]
 }

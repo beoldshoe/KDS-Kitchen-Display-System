@@ -1,3 +1,8 @@
+// Search.jsx
+// 주문번호 검색 입력 및 키패드를 제공하는 컴포넌트입니다.
+// 입력값이 바뀔 때 setSearchValue로 상위 컴포넌트에 값을 전달합니다.
+// (props: setSearchValue)
+
 import { useState } from 'react';
 import '../styles/Search.css';
 

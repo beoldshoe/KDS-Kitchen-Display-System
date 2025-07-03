@@ -22,7 +22,7 @@
   padding: 2vw 2vw 1vw 2vw;
   min-width: 15vw;
   max-width: 15vw;
-  min-height: 30vh;
+  min-height: 15vh;
   max-height: 80vh;
   display: flex;
   flex-direction: column;
@@ -32,58 +32,82 @@
 }
 
 .order-id {
-  font-size: 2vw;
+  font-size: 1.8vw;
   font-weight: bold;
   color: black;
-  margin-bottom: 0.7vw;
+  margin-bottom: 0.5vw;
 }
 
 .order-type {
-  font-size: 1.5vw;
+  font-size: 1.2vw;
   font-weight: bold;
   color: black;
-  margin-bottom: 0.7vw;
+  margin-bottom: 0.5vw;
 }
 
 .order-menu {
-  font-size: 1.2vw;
+  font-size: 1vw;
   color: black;
-  margin-bottom: 0.7vw;
+  margin-bottom: 0.5vw;
 }
 .order-individual-request {
-  font-size: 1.2vw;
+  font-size: 1vw;
   color: red;
-  margin-bottom: 0.7vw;
+  margin-bottom: 0.5vw;
   font-weight: bold;
 }
 
 .order-customer-request {
-  font-size: 1.2vw;
+  font-size: 1vw;
   color: red;
   font-weight: bold;
-  margin-bottom: 0.7vw;
+  margin-bottom: 0.5vw;
 }
 
 .order-customer-request-title {
-  font-size: 1.8vw;
+  font-size: 1.5vw;
   font-weight: bold;
   color: black;
+}
+
+.order-complete-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7vw;
+  margin-top: 1vw;
 }
 
 .order-complete-button {
-  font-size: 1.2vw;
-  font-weight: bold;
-  color: black;
-  border-radius: 0.5vw;
-  background-color: #ff7f00;
-  color: white;
+  padding: 0.7vw 1.5vw;
   border: none;
-  padding: 0.5vw 1vw;
+  border-radius: 0.7vw;
+  font-size: 1vw;
+  font-weight: bold;
   cursor: pointer;
-  margin-top: auto;
+  transition: background 0.2s;
 }
 
-.order-complete-button:hover {
-  background-color: #ff9900;
-  transition: background-color 0.2s;
+.order-complete-button.burger {
+  background: #007bff;
+  color: #fff;
+}
+
+.order-complete-button.burger:hover {
+  background: #0056b3;
+}
+
+.order-complete-button.all {
+  background: #28a745;
+  color: #fff;
+}
+
+.order-complete-button.all:hover {
+  background: #218838;
+}
+
+.menu-cancelled {
+  color: #aaa;
+  text-decoration: line-through;
+  font-weight: normal;
 }
