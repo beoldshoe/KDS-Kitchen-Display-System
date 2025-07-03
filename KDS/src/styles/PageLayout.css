@@ -1,8 +1,16 @@
+html,
+body {
+  overflow-y: hidden !important;
+  overflow-x: hidden !important;
+  height: 100%;
+}
+
 .page-layout-root {
   display: flex;
   flex-direction: row;
   width: 100vw;
   height: 100vh;
+  overflow-y: hidden;
 }
 
 .page-layout-side {
@@ -23,5 +31,4 @@
 .page-layout-content {
   padding: 1rem;
   flex: 1;
-  overflow-y: auto;
 }

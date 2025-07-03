@@ -1,0 +1,291 @@
+{
+  "menus": [
+    {
+      "id": 1,
+      "name": "싸이버거",
+      "category": "버거",
+      "price": 4500,
+      "isAvailable": true,
+      "options": "단품, 세트",
+      "createdAt": "2024-07-03T10:00:00Z",
+      "updatedAt": "2024-07-03T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "name": "후라이드 싸이순살",
+      "category": "치킨",
+      "price": 9900,
+      "isAvailable": true,
+      "options": "하프, 한마리",
+      "createdAt": "2024-07-03T10:05:00Z",
+      "updatedAt": "2024-07-03T10:05:00Z"
+    },
+    {
+      "id": 3,
+      "name": "케이준 양념감자",
+      "category": "사이드",
+      "price": 2000,
+      "isAvailable": true,
+      "options": "L 사이즈 변경 가능",
+      "createdAt": "2024-07-03T10:10:00Z",
+      "updatedAt": "2024-07-03T10:10:00Z"
+    },
+    {
+      "id": 4,
+      "name": "콜라",
+      "category": "음료",
+      "price": 1500,
+      "isAvailable": true,
+      "options": "제로콜라 변경 가능",
+      "createdAt": "2024-07-03T10:15:00Z",
+      "updatedAt": "2024-07-03T10:15:00Z"
+    },
+    {
+      "id": 5,
+      "name": "인크레더블 버거",
+      "category": "버거",
+      "price": 6000,
+      "isAvailable": false,
+      "options": "단품, 세트",
+      "createdAt": "2024-07-03T10:20:00Z",
+      "updatedAt": "2024-07-03T10:20:00Z"
+    },
+    {
+      "id": 6,
+      "name": "새우버거",
+      "category": "버거",
+      "price": 4000,
+      "isAvailable": true,
+      "options": "단품, 세트",
+      "createdAt": "2024-07-03T10:25:00Z",
+      "updatedAt": "2024-07-03T10:25:00Z"
+    },
+    {
+      "id": 7,
+      "name": "치즈스틱",
+      "category": "사이드",
+      "price": 2500,
+      "isAvailable": true,
+      "options": null,
+      "createdAt": "2024-07-03T10:30:00Z",
+      "updatedAt": "2024-07-03T10:30:00Z"
+    },
+    {
+      "id": 8,
+      "name": "환타 오렌지",
+      "category": "음료",
+      "price": 1500,
+      "isAvailable": true,
+      "options": null,
+      "createdAt": "2024-07-03T10:35:00Z",
+      "updatedAt": "2024-07-03T10:35:00Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "K101",
+      "orderType": "내점",
+      "orderStatus": "버거 제조 중",
+      "customerRequest": "피클 빼주세요",
+      "orderTime": "2024-07-03T14:30:00Z",
+      "completionTime": null
+    },
+    {
+      "id": "K102",
+      "orderType": "포장",
+      "orderStatus": "사이드 제조 중",
+      "customerRequest": "감자튀김 바삭하게 부탁드려요",
+      "orderTime": "2024-07-03T14:35:00Z",
+      "completionTime": null
+    },
+    {
+      "id": "K103",
+      "orderType": "배달",
+      "orderStatus": "완료",
+      "customerRequest": null,
+      "orderTime": "2024-07-03T14:20:00Z",
+      "completionTime": "2024-07-03T14:28:00Z"
+    },
+    {
+      "id": "D104",
+      "orderType": "배달",
+      "orderStatus": "버거 제조 중",
+      "customerRequest": "빨대 챙겨주세요",
+      "orderTime": "2024-07-03T14:40:00Z",
+      "completionTime": null
+    },
+    {
+      "id": "T105",
+      "orderType": "내점",
+      "orderStatus": "버거 제조 중",
+      "customerRequest": "세트메뉴 감자튀김 대신 치즈스틱으로 변경",
+      "orderTime": "2024-07-03T14:42:00Z",
+      "completionTime": null
+    },
+    {
+      "id": "T106",
+      "orderType": "포장",
+      "orderStatus": "완료",
+      "customerRequest": "봉투에 넣어주세요",
+      "orderTime": "2024-07-03T14:25:00Z",
+      "completionTime": "2024-07-03T14:32:00Z"
+    }
+  ],
+  "orderItems": [
+    {
+      "id": 1001,
+      "orderId": "K101",
+      "menuId": 1,
+      "quantity": 1,
+      "individualRequest": "양상추 많이"
+    },
+    {
+      "id": 1001,
+      "orderId": "K101",
+      "menuId": 1,
+      "quantity": 1,
+      "individualRequest": "양상추 많이"
+    },
+    {
+      "id": 1001,
+      "orderId": "K101",
+      "menuId": 1,
+      "quantity": 1,
+      "individualRequest": "양상추 많이"
+    },
+    {
+      "id": 1001,
+      "orderId": "K101",
+      "menuId": 1,
+      "quantity": 1,
+      "individualRequest": "양상추 많이"
+    },
+    {
+      "id": 1001,
+      "orderId": "K101",
+      "menuId": 1,
+      "quantity": 1,
+      "individualRequest": "양상추 많이"
+    },
+    {
+      "id": 1001,
+      "orderId": "K101",
+      "menuId": 1,
+      "quantity": 1,
+      "individualRequest": "양상추 많이"
+    },
+    {
+      "id": 1001,
+      "orderId": "K101",
+      "menuId": 1,
+      "quantity": 1,
+      "individualRequest": "양상추 많이"
+    },
+    {
+      "id": 1001,
+      "orderId": "K101",
+      "menuId": 1,
+      "quantity": 1,
+      "individualRequest": "양상추 많이"
+    },
+
+    {
+      "id": 1002,
+      "orderId": "K101",
+      "menuId": 3,
+      "quantity": 1,
+      "individualRequest": null
+    },
+    {
+      "id": 1003,
+      "orderId": "K101",
+      "menuId": 4,
+      "quantity": 1,
+      "individualRequest": "얼음 없이"
+    },
+    {
+      "id": 1004,
+      "orderId": "K102",
+      "menuId": 2,
+      "quantity": 1,
+      "individualRequest": null
+    },
+    {
+      "id": 1005,
+      "orderId": "K102",
+      "menuId": 4,
+      "quantity": 2,
+      "individualRequest": "콜라 2개"
+    },
+    {
+      "id": 1006,
+      "orderId": "K103",
+      "menuId": 1,
+      "quantity": 2,
+      "individualRequest": null
+    },
+    {
+      "id": 1007,
+      "orderId": "K103",
+      "menuId": 3,
+      "quantity": 1,
+      "individualRequest": null
+    },
+    {
+      "id": 1008,
+      "orderId": "D104",
+      "menuId": 6,
+      "quantity": 1,
+      "individualRequest": null
+    },
+    {
+      "id": 1009,
+      "orderId": "D104",
+      "menuId": 3,
+      "quantity": 1,
+      "individualRequest": null
+    },
+    {
+      "id": 1010,
+      "orderId": "D104",
+      "menuId": 8,
+      "quantity": 1,
+      "individualRequest": null
+    },
+    {
+      "id": 1011,
+      "orderId": "T105",
+      "menuId": 1,
+      "quantity": 1,
+      "individualRequest": "세트"
+    },
+    {
+      "id": 1012,
+      "orderId": "T105",
+      "menuId": 7,
+      "quantity": 1,
+      "individualRequest": null
+    },
+    {
+      "id": 1013,
+      "orderId": "T105",
+      "menuId": 4,
+      "quantity": 1,
+      "individualRequest": null
+    },
+    {
+      "id": 1014,
+      "orderId": "T106",
+      "menuId": 5,
+      "quantity": 1,
+      "individualRequest": null
+    },
+    {
+      "id": 1015,
+      "orderId": "T106",
+      "menuId": 3,
+      "quantity": 1,
+      "individualRequest": "소금 많이"
+    }
+  ]
+}

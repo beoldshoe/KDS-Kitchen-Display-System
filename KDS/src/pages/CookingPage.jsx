@@ -1,12 +1,18 @@
+import React, { useEffect, useState } from 'react';
 import PageLayout from '../layouts/PageLayout';
+import Order from '../components/Order';
+import { fetchOrdersWithItemsAndMenus } from '../api/OrderApi';
 
 function CookingPage() {
+  const [orders, setOrders] = useState([]);
+
+  useEffect(() => {
+    fetchOrdersWithItemsAndMenus().then(setOrders).catch(console.error);
+  }, []);
+
   return (
     <PageLayout>
-      <h1>Cooking Page</h1>
-      <p>
-        This is the cooking page where you can find recipes and cooking tips.
-      </p>
+      <Order orders={orders} />
     </PageLayout>
   );
 }
