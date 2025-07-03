@@ -1,0 +1,25 @@
+.top-navigation-button-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.top-navigation-button {
+  height: 5vh;
+  width: 10vw;
+  margin-left: 1vw;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1vh;
+}
+
+.top-navigation-button-text {
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+.top-navigation-button:hover {
+  background-color: #f0f0f0;
+  transition: background-color 0.3s ease;
+}

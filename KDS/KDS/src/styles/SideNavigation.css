@@ -1,0 +1,42 @@
+.side-navigation {
+  width: 10vw;
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #e0e0e0;
+}
+
+.logo-image {
+  width: 8vw;
+}
+
+.side-navigation-button-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.side-navigation-button {
+  display: flex;
+  flex-direction: column;
+  width: 8vw;
+  height: 4vh;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5vh;
+  border-radius: 1vh;
+  cursor: pointer;
+}
+
+.side-navigation-button:hover {
+  background-color: #f0f0f0;
+  transition: background-color 0.3s ease;
+}
+
+.side-navigation-button-text {
+  font-size: 1.5vh;
+  font-weight: bold;
+}

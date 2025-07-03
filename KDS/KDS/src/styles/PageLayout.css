@@ -1,0 +1,27 @@
+.page-layout-root {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+}
+
+.page-layout-side {
+  /* 필요시 사이드 네비게이션에 추가 스타일 */
+}
+
+.page-layout-main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+.page-layout-topnav {
+  /* 필요시 탑 네비게이션에 추가 스타일 */
+}
+
+.page-layout-content {
+  padding: 1rem;
+  flex: 1;
+  overflow-y: auto;
+}

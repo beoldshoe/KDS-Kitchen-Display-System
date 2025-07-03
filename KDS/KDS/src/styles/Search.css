@@ -1,0 +1,176 @@
+.search-wrapper {
+  position: relative;
+}
+
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.search-input {
+  padding: 1.5vh 1.5vw;
+  padding-left: 3vw;
+  border: 0.2vh solid #e1e5e9;
+  border-radius: 3vh;
+  font-size: 1.5vw;
+  width: 10vw;
+  height: 1.5vh;
+  outline: none;
+  background-color: #f8f9fa;
+  transition: all 0.3s ease;
+  box-shadow: 0 0.3vh 0.5vw rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.search-input:focus {
+  border-color: #007bff;
+  background-color: white;
+  box-shadow: 0 0.5vh 1vw rgba(0, 123, 255, 0.15);
+  transform: translateY(-0.1vh);
+}
+
+.search-input::placeholder {
+  color: #6c757d;
+  font-style: italic;
+}
+
+.search-icon {
+  position: absolute;
+  left: 1vw;
+  color: #6c757d;
+  font-size: 1.5vw;
+  pointer-events: none;
+  transition: color 0.3s ease;
+}
+
+.search-input:focus + .search-icon {
+  color: #007bff;
+}
+
+.search-container:hover .search-input {
+  border-color: #007bff;
+  background-color: white;
+}
+
+.search-container:hover .search-icon {
+  color: #007bff;
+}
+
+/* 드롭다운 터치패드 */
+.keypad-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 1vh;
+  z-index: 1000;
+}
+
+.keypad {
+  background: white;
+  border-radius: 2vh;
+  padding: 2vh 2vw;
+  box-shadow: 0 1vh 3vw rgba(0, 0, 0, 0.15);
+  width: 15vw;
+  border: 0.1vh solid #e1e5e9;
+}
+
+.keypad-display {
+  margin-bottom: 2vh;
+}
+
+.keypad-input {
+  width: 100%;
+  padding: 1.5vh 1.5vw;
+  border: 0.2vh solid #e1e5e9;
+  border-radius: 1vh;
+  font-size: 1.5vw;
+  text-align: center;
+  outline: none;
+  background-color: #f8f9fa;
+  box-sizing: border-box;
+}
+
+.keypad-input:focus {
+  border-color: #007bff;
+  background-color: white;
+}
+
+.keypad-buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1vh;
+  margin-bottom: 2vh;
+}
+
+.keypad-btn {
+  padding: 1.5vh 1.5vw;
+  border: none;
+  border-radius: 1vh;
+  font-size: 1.5vw;
+  font-weight: bold;
+  background-color: #f8f9fa;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.keypad-btn:hover {
+  background-color: #007bff;
+  color: white;
+  transform: translateY(-0.1vh);
+}
+
+.keypad-btn.clear {
+  background-color: #dc3545;
+  color: white;
+}
+
+.keypad-btn.clear:hover {
+  background-color: #c82333;
+}
+
+.keypad-btn.delete {
+  background-color: #ffc107;
+  color: #333;
+}
+
+.keypad-btn.delete:hover {
+  background-color: #e0a800;
+}
+
+.keypad-actions {
+  display: flex;
+  gap: 1vh;
+}
+
+.submit-btn,
+.cancel-btn {
+  flex: 1;
+  padding: 1.2vh 1.5vw;
+  border: none;
+  border-radius: 1vh;
+  font-size: 1.3vw;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.submit-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.submit-btn:hover {
+  background-color: #218838;
+}
+
+.cancel-btn {
+  background-color: #6c757d;
+  color: white;
+}
+
+.cancel-btn:hover {
+  background-color: #5a6268;
+}
