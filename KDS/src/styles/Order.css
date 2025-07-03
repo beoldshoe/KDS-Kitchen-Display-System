@@ -5,7 +5,7 @@
   gap: 2vw;
   padding: 2vw;
   overflow-y: auto;
-  height: 80vh;
+  height: 70vh;
 }
 
 .order-list.empty {
@@ -20,10 +20,10 @@
   border-radius: 1vw;
   box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.08);
   padding: 2vw 2vw 1vw 2vw;
-  min-width: 15vw;
-  max-width: 15vw;
-  min-height: 15vh;
-  max-height: 80vh;
+  min-width: 10vw;
+  max-width: 12vw;
+  min-height: 10vh;
+  max-height: 70vh;
   display: flex;
   flex-direction: column;
   margin-bottom: 1vw;
@@ -32,26 +32,26 @@
 }
 
 .order-id {
-  font-size: 1.8vw;
+  font-size: 1.5vw;
   font-weight: bold;
   color: black;
   margin-bottom: 0.5vw;
 }
 
 .order-type {
-  font-size: 1.2vw;
+  font-size: 1vw;
   font-weight: bold;
   color: black;
   margin-bottom: 0.5vw;
 }
 
 .order-menu {
-  font-size: 1vw;
+  font-size: 0.8vw;
   color: black;
   margin-bottom: 0.5vw;
 }
 .order-individual-request {
-  font-size: 1vw;
+  font-size: 0.8vw;
   color: red;
   margin-bottom: 0.5vw;
   font-weight: bold;
@@ -65,49 +65,48 @@
 }
 
 .order-customer-request-title {
-  font-size: 1.5vw;
+  font-size: 1vw;
   font-weight: bold;
   color: black;
+}
+
+.order-complete-button {
+  font-size: 0.8vw;
+  font-weight: bold;
+  color: black;
+  border-radius: 0.5vw;
+  background-color: #ff7f00;
+  color: white;
+  border: none;
+  padding: 0.5vw 1vw;
+  cursor: pointer;
+  margin-top: auto;
+}
+
+.order-complete-button:hover {
+  background-color: #ff9900;
+  transition: background-color 0.2s;
+}
+
+.order-complete-button.all {
+  font-size: 0.8vw;
+  font-weight: bold;
+  color: black;
+  border-radius: 0.5vw;
+  background-color: #28a745;
+  color: white;
+}
+
+.order-complete-button.all:hover {
+  background-color: #218838;
+  transition: background-color 0.2s;
 }
 
 .order-complete-buttons {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0.7vw;
+  gap: 0.5vw;
   margin-top: 1vw;
-}
-
-.order-complete-button {
-  padding: 0.7vw 1.5vw;
-  border: none;
-  border-radius: 0.7vw;
-  font-size: 1vw;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background 0.2s;
-}
-
-.order-complete-button.burger {
-  background: #007bff;
-  color: #fff;
-}
-
-.order-complete-button.burger:hover {
-  background: #0056b3;
-}
-
-.order-complete-button.all {
-  background: #28a745;
-  color: #fff;
-}
-
-.order-complete-button.all:hover {
-  background: #218838;
-}
-
-.menu-cancelled {
-  color: #aaa;
-  text-decoration: line-through;
-  font-weight: normal;
+  width: 100%;
 }

@@ -3,7 +3,7 @@ import SideNavigation from '../components/SideNavigation';
 import CookingTopNavigation from '../components/CookingTopNavigation';
 import '../styles/PageLayout.css';
 
-const PageLayout = ({ children, category, setCategory }) => {
+const PageLayout = ({ children }) => {
   return (
     <div className="page-layout-root">
       <div className="page-layout-side">
@@ -11,7 +11,7 @@ const PageLayout = ({ children, category, setCategory }) => {
       </div>
       <div className="page-layout-main">
         <div className="page-layout-topnav">
-          <CookingTopNavigation category={category} setCategory={setCategory} />
+          <CookingTopNavigation />
         </div>
         <div className="page-layout-content">{children}</div>
       </div>
