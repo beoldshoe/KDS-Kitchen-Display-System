@@ -5,28 +5,27 @@
   gap: 2vw;
   padding: 2vw;
   overflow-y: auto;
-  height: 70vh;
+  height: 68vh;
 }
 
 .order-list.empty {
   color: #888;
   font-size: 1.5vw;
   text-align: center;
-  width: 100%;
 }
 
 .order-card {
   background: #fff;
   border-radius: 1vw;
   box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.08);
-  padding: 2vw 2vw 1vw 2vw;
+  padding: 1vw 1vw 1vw 1vw;
   min-width: 10vw;
   max-width: 12vw;
-  min-height: 10vh;
-  max-height: 70vh;
+  min-height: 12vh;
+  max-height: 60vh;
   display: flex;
   flex-direction: column;
-  margin-bottom: 1vw;
+  margin-bottom: 0.5vw;
   border: 1px solid #e1e5e9;
   transition: box-shadow 0.2s;
 }

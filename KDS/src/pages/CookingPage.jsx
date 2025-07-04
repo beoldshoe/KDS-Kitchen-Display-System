@@ -3,6 +3,7 @@ import PageLayout from '../layouts/PageLayout';
 import Order from '../components/Order';
 import useOrderStore from '../store/orderStore';
 import useSideOrderStore from '../store/sideOrderStore';
+import '../styles/CookingPage.css';
 
 function CookingPage() {
   const {
@@ -30,24 +31,17 @@ function CookingPage() {
 
   return (
     <PageLayout>
-      <div style={{ display: 'flex', width: '100%', height: '100%' }}>
-        <div
-          style={{
-            flex: 1,
-            borderRight: '2px solid #eee',
-            padding: '1vw',
-            boxSizing: 'border-box',
-          }}
-        >
-          <h2 style={{ textAlign: 'center' }}>버거</h2>
+      <div className="cooking-split-container">
+        <div className="burger-section">
+          <h1 className="cooking-section-title">버거</h1>
           <Order
             orders={orders}
             onCompleteOrder={handleCompleteOrder}
             onCompleteAllOrders={handleCompleteAllOrders}
           />
         </div>
-        <div style={{ flex: 1, padding: '1vw', boxSizing: 'border-box' }}>
-          <h2 style={{ textAlign: 'center' }}>사이드</h2>
+        <div className="side-section">
+          <h1 className="cooking-section-title">사이드</h1>
           <Order
             orders={sideOrders}
             onCompleteAllOrders={handleCompleteAllOrders}

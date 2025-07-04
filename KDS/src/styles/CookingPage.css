@@ -7,16 +7,18 @@
 .burger-section {
   flex: 1;
   border-right: 2px solid #eee;
-  padding: 1vw;
+  padding: 0.5vh;
   box-sizing: border-box;
   height: 100%;
+  width: 100%;
 }
 
 .side-section {
   flex: 1;
-  padding: 1vw;
+  padding: 0.5vh;
   box-sizing: border-box;
   height: 100%;
+  width: 100%;
 }
 
 .cooking-section-title {

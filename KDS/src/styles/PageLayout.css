@@ -13,10 +13,6 @@ body {
   overflow-y: hidden;
 }
 
-.page-layout-side {
-  /* 필요시 사이드 네비게이션에 추가 스타일 */
-}
-
 .page-layout-main {
   display: flex;
   flex-direction: column;
@@ -24,11 +20,7 @@ body {
   height: 100vh;
 }
 
-.page-layout-topnav {
-  /* 필요시 탑 네비게이션에 추가 스타일 */
-}
-
 .page-layout-content {
-  padding: 1rem;
+  padding: 0.5vw;
   flex: 1;
 }
